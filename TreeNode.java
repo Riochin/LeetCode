@@ -22,56 +22,30 @@ public class TreeNode {
 
 class Solution {
     public boolean isBalanced(TreeNode root) {
-        int leftHeight = 0;
-        int rightHeight = 0;
-        TreeNode current = root;
+        return checkHeight(root) != -1;
+    }
+
+    private int checkHeight(TreeNode root) {
         if (root == null) {
-            return true;
+            return 0;
         }
-        if(root.left != null){
-            while(current != null) {
-                System.out.println(current.val);
-                System.out.println("左の高さは"+leftHeight);
-                if(current.left != null) {
-                    leftHeight++;
-                    current = current.left;
-                    continue;
-                } else if(current.right != null) {
-                    leftHeight++;
-                    current = current.right;
-                    continue;
-                } else {
-                    break;
-                }
-            }
-        }
-        
-        
 
-        current = root;
-        if(root.right != null){
-            while(current != null) {
-                System.out.println(current.val);
-                System.out.println("右の高さは"+rightHeight);
-                if(current.right != null) {
-                    rightHeight++;
-                    current = current.right;
-                    continue;
-                } else if(current.left != null) {
-                    rightHeight++;
-                    current = current.left;
-                    continue;
-                } else {
-                    break;
-                }
-            }
+        int leftHeight = checkHeight(root.left);
+        if (leftHeight == -1) {
+            return -1;
         }
-        
 
-        if(Math.abs(leftHeight - rightHeight) > 1) {
-            return false;
+        int rightHeight = checkHeight(root.right);
+        if (rightHeight == -1) {
+            return -1;
         }
-        return true;
+
+        int heightDiff = Math.abs(leftHeight - rightHeight);
+        if (heightDiff > 1) {
+            return -1;
+        } else {
+            return Math.max(leftHeight, rightHeight) + 1;
+        }
     }
 }
 // @lc code=end
