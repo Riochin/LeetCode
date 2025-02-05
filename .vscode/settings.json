@@ -1,4 +1,4 @@
 {
-  "github.copilot.editor.enableAutoCompletions": true,
-  "emmet.useInlineCompletions": false
+  "github.copilot.editor.enableAutoCompletions": false,
+  "emmet.useInlineCompletions": true
 }
