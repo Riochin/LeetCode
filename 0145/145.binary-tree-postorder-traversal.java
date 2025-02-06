@@ -5,6 +5,10 @@
  */
 
 // @lc code=start
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -22,7 +26,25 @@
  */
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+
+        postorderTraversal(root, result);
+
+        return result;
+    }
+
+    public void postorderTraversal(TreeNode root, List<Integer> result){
+        if(root == null){
+            return;
+        }
+
+        postorderTraversal(root.left,result);
+        postorderTraversal(root.right,result);
+
+        result.add(root.val);
         
+        return;
+
     }
 }
 // @lc code=end
