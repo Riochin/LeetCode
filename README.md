@@ -22,4 +22,5 @@ LeetCodeの記録(2025/1/23開始)
 | 0016 | 2/7 | None | [3160](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/description/?envType=daily-question&envId=2025-02-07) | Medium | [Answer](https://github.com/Riochin/LeetCode/tree/main/3160) | Array, Hash Table, Simulation |
 | 0017 | 2/8 | [#5](https://github.com/Riochin/LeetCode/issues/5) | [2349](https://leetcode.com/problems/design-a-number-container-system/description/?envType=daily-question&envId=2025-02-08) | Medium | [Answer](https://github.com/Riochin/LeetCode/blob/main/2349/2349.design-a-number-container-system.java) | Hash Table, Design, Heap, Ordered Set |
 | 0018 | 2/9 | None | [2364](https://leetcode.com/problems/count-number-of-bad-pairs/description/?envType=daily-question&envId=2025-02-09) | Medium | [Answer](https://github.com/Riochin/LeetCode/blob/main/2364) | Array, Hash Table, Math, Counting |
+| 0019 | 2/10 | None | 3174 | Easy | [Answer](https://github.com/Riochin/LeetCode/blob/main/3174) | String, Stack, Simulation |
 | No. | Date | Ex. | Problem | Difficulty | [Answer](https://github.com/Riochin/LeetCode/blob/main/[ここに問題番号]) | Topics |
