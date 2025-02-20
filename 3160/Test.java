@@ -9,7 +9,7 @@
 import java.util.HashMap;
 import java.util.HashSet;
 
-class Solution {
+class Test {
     public int[] queryResults(int limit, int[][] queries) {
         HashMap<Integer, Integer> colors = new HashMap<Integer,Integer>(limit+1);
         int[] output = new int[queries.length];
