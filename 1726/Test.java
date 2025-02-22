@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-class Solution {
+class Test {
     public int tupleSameProduct(int[] nums) {
         int a = nums[0];
         int n = nums.length;
