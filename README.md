@@ -29,5 +29,14 @@ LeetCodeの記録(2025/1/23開始)
 | 0023 | 2/19 | None | [2375](https://leetcode.com/problems/construct-smallest-number-from-di-string/description/) | Medium | [Answer](https://github.com/Riochin/LeetCode/blob/main/2375) | String, Backtracking, Stack, Greedy |
 | 0024 | 2/20 | [#7](https://github.com/Riochin/LeetCode/issues/7) | [1980](https://leetcode.com/problems/find-unique-binary-string/description/) | Medium | [Answer](https://github.com/Riochin/LeetCode/blob/main/1980) | Array, Hash Table, String, Backtracking |
 | 0025 | 2/21 | None | [1261](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/description/?envType=daily-question&envId=2025-02-21) | Medium | [Answer](https://github.com/Riochin/LeetCode/blob/main/1261) | Hash Table, Tree, Depth-First Search, Breadth-First Search, Design, Binary Tree |
+| 0026 | 2/22 | None | [1768](https://leetcode.com/problems/merge-strings-alternately/description/) | Easy | [Answer](https://github.com/Riochin/LeetCode/blob/main/1768) | String, Two Pointers |
+| 0027 | 2/25 | None | [1524](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description/) | Medium | [Answer](https://github.com/Riochin/LeetCode/blob/main/1524) | Array, Math, Dynamic Programming, Prefix Sum |
+| 0028 | 3/7 | None | [0150](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | Medium | [Answer](https://github.com/Riochin/LeetCode/blob/main/0150) | Array, Math, Stack |
+| 0029 | 7/8 | None | [0168](https://leetcode.com/problems/excel-sheet-column-title/description/) | Easy | [Answer](https://github.com/Riochin/LeetCode/blob/main/0168) | Math, String |
+| 0030 | 7/9 | None | [0605](https://leetcode.com/problems/can-place-flowers/description/) | Easy | [Answer](https://github.com/Riochin/LeetCode/blob/main/0605) | Array, Greedy |
+| 0031 | 7/9 | None | [0700](https://leetcode.com/problems/search-in-a-binary-search-tree/description/) | Easy | [Answer](https://github.com/Riochin/LeetCode/blob/main/0700) | Tree, Binary Search Tree, Binary Tree |
+| 0032 | 7/9 | None | [0872](https://leetcode.com/problems/leaf-similar-trees/description/) | Easy | [Answer](https://github.com/Riochin/LeetCode/blob/main/872) | Tree, Depth-First Search, Binary Tree |
+| 0033 | 7/9 | None | [0889](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/description/) | Medium | [Answer](https://github.com/Riochin/LeetCode/blob/main/0889) | Array, Hash Table, Divide and Conquer, Tree, Binary Tree |
+| 0034 | 7/9 | None | [1431](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/) | Easy | [Answer](https://github.com/Riochin/LeetCode/blob/main/1431) | Array |
 | No. | Date | Ex. | Problem | Difficulty | [Answer](https://github.com/Riochin/LeetCode/blob/main/[ここに問題番号]) | Topics |
 
