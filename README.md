@@ -38,5 +38,7 @@ LeetCodeの記録(2025/1/23開始)
 | 0032 | 7/9 | None | [0872](https://leetcode.com/problems/leaf-similar-trees/description/) | Easy | [Answer](https://github.com/Riochin/LeetCode/blob/main/872) | Tree, Depth-First Search, Binary Tree |
 | 0033 | 7/9 | None | [0889](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/description/) | Medium | [Answer](https://github.com/Riochin/LeetCode/blob/main/0889) | Array, Hash Table, Divide and Conquer, Tree, Binary Tree |
 | 0034 | 7/9 | None | [1431](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/) | Easy | [Answer](https://github.com/Riochin/LeetCode/blob/main/1431) | Array |
-| No. | Date | Ex. | Problem | Difficulty | [Answer](https://github.com/Riochin/LeetCode/blob/main/[ここに問題番号]) | Topics |
+| 0035 | 7/10 | None | [0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Medium | [Answer](https://github.com/Riochin/LeetCode/blob/main/0003) | Hash Table, String, Sliding Window |
+| 0036 | 7/10 | None | [0283](https://leetcode.com/problems/move-zeroes/description/) | Easy | [Answer](https://github.com/Riochin/LeetCode/blob/main/0283) | Array, Two Pointers |
+| 0037 | 7/10 | None | [0933](https://leetcode.com/problems/number-of-recent-calls/description/) | Easy | [Answer](https://github.com/Riochin/LeetCode/blob/main/0933) | Design, Queue, Data Stream |
 
